@@ -1,0 +1,58 @@
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+body {
+	background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-size: 12px;
+    min-width: 375px;
+    max-width: 1440px;
+    height: 700px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card {
+	background-color: hsl(0, 0%, 12%);
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 20px;
+}
+.avatar {
+	border-radius: 50%;
+	width: 110px;
+	height: 110px;
+}
+.name {
+	font-size: x-large;
+	padding-bottom: 0;
+}
+.city {
+	font-size: medium;
+    color: hsl(75, 94%, 57%);
+    margin-top: -10px;
+}
+.job {
+	font-size: small;
+    margin: 10px;
+    
+}
+.social {
+	background-color: hsl(0, 0%, 20%);
+	height: 50px;
+	width: 300px;
+	text-align: center;
+	align-content: center;
+	margin: 7px;
+	border-radius: 8px;
+}
